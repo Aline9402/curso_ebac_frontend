@@ -6,34 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
     <link rel="stylesheet" href="./main.css" />
-
+    
 </head>
 <body>
     <header>
         <h1>Meu portal de notícias</h1>
         <nav>
             <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#entertainment" title="Ir para a seção de Entretenimento">Entretenimento</a>
-                </li>
-                <li>
-                    <a href="#technology" title="Ir para a seção de Tecnologia">Tecnologia</a>
-                </li>
+                <li><a href="#esportes" title="Ir para a seção de esportes">Esportes</a></li>
+                <li><a href="#economia" title="Ir para a seção de Economia">Economia</a></li>
+                <li><a href="#entretenimento" title="Ir para a seção de Entretenimento">Entretenimento</a></li>
+                <li><a href="#tecnologia" title="Ir para a seção de Tecnologia">Tecnologia</a></li>
             </ul>
         </nav>
         <!-- Seção de Entretenimento -->
 <section>
-    <h2 style="color:#CDFFA6;">Entretenimento</h2>
+    <section id="entretenimento" class="news-section">
+    <h2 style="color:#12430b;">Entretenimento</h2>
     <article>
         <img src="./imagens/cinema.jpg" alt="Cena de cinema"  class= "img-entretenimento" />
         <header>
@@ -49,7 +38,8 @@
 
 <!-- Seção de Tecnologia -->
 <section>
-    <h2 style="color:#FFDAB9;">Tecnologia</h2>
+    <section id="tecnologia" class="news-section">
+    <h2 style="color:#12430b;">Tecnologia</h2>
     <article>
         <img src="./imagens/tecnologia.jpg" alt="Inovações tecnológicas" class="img-tecnologia" />
         <header>
@@ -65,6 +55,7 @@
 
     </header>
     <section>
+        <section id="esportes" class="news-section">
         <h2 style="color:#12430b;">Esportes</h2>
         <article>
             <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
@@ -112,7 +103,8 @@
         </article>
     </section>
     <section>
-        <h2 style="color: #FFCBA4">Economia</h2>
+        <section id="economia" class="news-section"> 
+        <h2 style="color:#12430b">Economia</h2>
         <article>
             <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
             <header>

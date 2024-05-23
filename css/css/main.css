@@ -3,25 +3,58 @@
     height: auto;
 
 }
-body {
-    background-color: #BFC4FF;
-}
 
 body {
-    background-color: #BFC4FF;
-    color: #F4FFFC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #F4F4F4; /* Cor de fundo geral */
 }
+
+.header {
+    background-color: #FFFFFF; /* Cabeçalho com fundo branco */
+    padding: 20px;
+    text-align: center;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column; /* As seções agora estão dispostas verticalmente */
+}
+
+.news-section {
+    margin: 20px 0; /* Adiciona espaço entre as seções */
+    padding: 20px;
+    border: 1px solid #ccc; /* Adiciona uma borda para cada seção */
+}
+
+#esportes {
+    background-color: #BFC4FF; /* Azul claro */
+}
+
+#economia {
+    background-color: #FFDAB9; /* Pêssego */
+}
+
+#entretenimento {
+    background-color: #FFCBA4; /* Coral */
+}
+
+#tecnologia {
+    background-color: #C2FABC; /* Verde claro */
+}
+
 .btn-read-more {
     display: inline-block;
+    background-color: #CDFFA6; /* Verde claro */
+    color: #1B00FF; /* Azul */
     padding: 10px 20px;
-    background-color: #CDFFA6; 
-    color: #1B00FF;           
-    text-align: center;
-    text-decoration: none;   
-    border-radius: 5px;      
-    transition: background-color 0.3s ease; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .btn-read-more:hover {
-    background-color: #b2e897; 
+    background-color: #b2e897; /* Verde mais claro */
 }
