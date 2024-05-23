@@ -1,0 +1,27 @@
+.img-entretenimento, .img-tecnologia {
+    width: 645px; 
+    height: auto;
+
+}
+body {
+    background-color: #BFC4FF;
+}
+
+body {
+    background-color: #BFC4FF;
+    color: #F4FFFC;
+}
+.btn-read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CDFFA6; 
+    color: #1B00FF;           
+    text-align: center;
+    text-decoration: none;   
+    border-radius: 5px;      
+    transition: background-color 0.3s ease; 
+}
+
+.btn-read-more:hover {
+    background-color: #b2e897; 
+}
